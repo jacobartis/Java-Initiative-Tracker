@@ -1,3 +1,4 @@
+package com.InitiativeTracker;
 class Creature {
     String name = "";
     int initiative = 0;
