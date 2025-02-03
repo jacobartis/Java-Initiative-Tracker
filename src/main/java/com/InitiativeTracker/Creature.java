@@ -1,7 +1,7 @@
 package com.InitiativeTracker;
 class Creature {
-    String name = "";
-    int initiative = 0;
+    private String name = "";
+    private int initiative = 0;
     
     public Creature(){
         this.name = "Undefined";
@@ -26,7 +26,7 @@ class Creature {
     }
 
     public void set_inititative(int initiative){
-        this.initiative = initiative;
+        this.initiative = Math.max(0,initiative);
     }
 
 }
