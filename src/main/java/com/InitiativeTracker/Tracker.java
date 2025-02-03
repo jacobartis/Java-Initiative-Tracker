@@ -6,8 +6,8 @@ import java.util.List;
 import com.InitiativeTracker.Creature;
 
 public class Tracker {
-    HashMap <Integer,Creature> creatures = new HashMap<Integer,Creature>();
-    int id = 0;
+    private HashMap <Integer,Creature> creatures = new HashMap<Integer,Creature>();
+    private int id = 0;
 
     private int next_id(){
         this.id ++;
