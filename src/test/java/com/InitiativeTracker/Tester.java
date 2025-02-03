@@ -101,7 +101,8 @@ public class Tester {
         Creature creature2 = new Creature("",10);
         tracker.add_creature(creature2);
         List<Integer> test_list = new ArrayList<Integer>(); 
-        test_list.add(1,2);
+        test_list.add(1);
+        test_list.add(2);
         assertTrue(tracker.get_ids().equals(test_list));
     }
 
