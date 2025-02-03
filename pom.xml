@@ -65,7 +65,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>com.InitiativeTracker.UI</mainClass>
+                    <mainClass>com.InitiativeTracker.Main</mainClass>
                 </configuration>
             </plugin>
         </plugins>
