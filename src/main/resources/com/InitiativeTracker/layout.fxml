@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<StackPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.InitiativeTracker.UIController">
+    <VBox spacing="10" alignment="CENTER">
+        <Label fx:id="label" text="Hello"/>
+        <VBox fx:id="creatureDisplay"></VBox>
+        <HBox alignment="CENTER">
+            <Button fx:id="updateButton" text="update" onAction="#updateCreatureDisplay"/>
+            <Button fx:id="addButton" text="addCreature" onAction="#addCreature"/>
+        </HBox>
+    </VBox>
+</StackPane>
