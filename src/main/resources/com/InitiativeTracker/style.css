@@ -1,0 +1,24 @@
+
+StackPane{
+    -fx-background-color: aquamarine;
+    background-color: aquamarine;
+}
+
+Button{
+    -fx-background-color:red;
+    background-color:red;
+}
+
+Button:hover{
+    -fx-background-color: blueviolet;
+    background-color: blueviolet;
+}
+
+#creatureDisplay{
+    border-width: 5px;
+    -fx-border-width: 5px;
+    border-color: black;
+    -fx-border-color: black;
+    border-radius: 2px;
+    -fx-border-radius: 2px;
+}
