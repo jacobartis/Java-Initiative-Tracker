@@ -9,8 +9,8 @@ class Creature {
     }
 
     public Creature(String name,int initiative){
-        this.name = name;
-        this.initiative = initiative;
+        this.set_name(name);
+        this.set_inititative(initiative);
     }
 
     public String get_name(){
